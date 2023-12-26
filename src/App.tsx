@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 export default function App() {
   const [value, setValue] = useState("");
-  const [toDiv, setToDiv] = useState<number>();
+  const [toDiv, setToDiv] = useState<number>(0);
 
   const [counting, setCounting] = useState(false);
   const [intervalId, setIntervalId] = useState<number>();
